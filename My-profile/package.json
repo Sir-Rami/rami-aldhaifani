@@ -1,0 +1,26 @@
+{
+  "name": "rami-al-dhaifani-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Rami Al-Dhaifani - Senior Software Testing Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "software-testing",
+    "qa-engineer",
+    "rami-al-dhaifani",
+    "professional-website"
+  ],
+  "author": "Rami Al-Dhaifani <eng.rami98@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://rami-al-dhaifani.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rami-al-dhaifani/portfolio"
+  }
+}
